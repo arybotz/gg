@@ -16,7 +16,7 @@ RUN apt-get update && \
 
 COPY package.json .
 
-RUN npminstall pm2 -g 
+RUN npm install pm2 -g 
 
 COPY . .
 
